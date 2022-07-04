@@ -1,0 +1,54 @@
+.container {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.first_image {
+    width: 100%;
+}
+
+.second_image{
+    width: 100%;
+}
+.nav_bar {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 68%;
+    align-items: center;
+    bottom: 43em;
+    right: 20px;
+
+    a {
+        text-decoration: none;
+        font-family: cursive;
+        font-size: 15px;
+        color: #c3c312;
+    }
+    a:hover{
+        color: rgb(255, 82, 2);
+        text-decoration:underline;
+    }
+
+}
+.para{
+    position: absolute;
+    top: 14rem;
+    margin: 25px;
+    color: white;
+    font-family: cursive;
+    padding: 14px;
+    padding-right: 27rem;
+}
+.brand_name_1{
+  
+    position: absolute;
+    top: 7rem;
+    margin: 25px;
+    color:white;
+    font-family: cursive;
+}
+.logo{
+    max-resolution: 10px;
+}
